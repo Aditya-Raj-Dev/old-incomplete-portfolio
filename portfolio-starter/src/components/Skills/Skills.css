@@ -5,7 +5,8 @@
     margin-bottom: 8rem;
     margin-top: 9rem;
     margin-bottom: 13rem;
-    gap:2rem;
+    
+    justify-content: space-around;
     
     }
 
@@ -39,7 +40,9 @@
     text-align: left;
  
 }
-.s-right{
-    font-size: xx-large;
-    
+.s-right div{display: flex;
+    gap:15px; 
+}
+.s-right div:nth-child(1){
+    margin-bottom: 10px;
 }

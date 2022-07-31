@@ -1,7 +1,6 @@
 .skillbox {
     width:4rem;
     height: 6rem;
-    position:absolute;
     display: flex;
     flex-direction: column;
     gap:1rem;
@@ -11,19 +10,16 @@
     border: 7px solid var(--orangeCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding:0px 13px 2rem 13px;
-}
-
-.skillbox:nth-child(1){
-    color:var(--orange);
+    padding:12px 1rem 1rem 1rem;
    
 }
-.skillbox >img {
-    transform :scale(0.6);
-    margin-bottom: -2rem;
-}
-.c-button{
-    background: #ffffff;
-    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.8);
 
+.skillbox span:nth-of-type(1){
+    color:var(--orange);
+
+}
+.skillbox span:nth-of-type(2){
+    color:var(--black);
+    font-size: 30px;
+    font-weight: bold;
 }
